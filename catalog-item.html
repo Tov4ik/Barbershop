@@ -87,8 +87,23 @@
 		<section class="modal modal-login">
 			<h2>Личный кабинет</h2>
 			<p>Введите пожалуйста свой логин и пароль</p>
-			<!-- Здесь будет форма -->
-			<span class="modal-close">X</span>
+				<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+					<p>
+						<label for="user" class="visually-hidden">Логин</label>
+						<input class="login-icon-user" id="user" name="login" placeholder="Логин" type="text">
+					</p>
+					<p>
+						<label for="login-icon-password" class="visually-hidden">Пароль</label>
+						<input class="login-icon-password" id="login-icon-password" name="password" placeholder="Пароль" type="password">
+					</p>
+					<p>
+						<label for="login-password-info">Запомните меня</label>
+						<input type="checkbox" name="remember" id="login-password-info" class="visually-hidden">
+						<a href="#" class="restore">Я забыл пароль!</a>
+					</p>
+					<button type="submit" class="button">Войти</button>
+				</form>
+			<button class="modal-close" type="button">Закрыть</button>
 		</section>
 	</main>
 </body>
