@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Прайслист</title>
+</head>
+<body>
+	<header class="main-header">
+		<nav class="main-navigation">
+			<a class="main-header-logo" href="index.html">
+				<img src="img/svg/logo.svg" alt="Логотип Барбершопа «Бородинский»" width="111" height="24">
+			</a>
+			<ul class="site-navigation">
+				<li><a href="info.html">Информация</a></li>
+				<li><a href="news.html">Новости</a></li>
+				<li><a href="price.html">Прайс-лист</a></li>
+				<li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+			<ul class="user-navigation">
+				<li class="login-link">
+					<a href="login.html" class="login-link">Вход</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+		<h1>Прайс-лист</h1>
+
+		<ul class="breadcrumbs">
+			<li><a href="index.html">Главная</a></li>
+			<li class="breadcrumbs-current">Прайс-лист</li>
+		</ul>
+
+		<section class="price-list">
+			<h2 class="visually-hidden">Подробная информация</h2>
+			<p>Истинно мужская классика</p>
+			<h3>МЫ ИСПОЛЬЗУЕМ ТОЛЬКО ЛУЧШИЕ СРЕДСТВА:</h3>
+			<ul class="price-list-brands">
+				<li class="price-list-brand-item">Baxter of California</li>
+				<li class="price-list-brand-item">Mr Natty</li>
+				<li class="price-list-brand-item">Suavecito</li>
+				<li class="price-list-brand-item">Malin+Goetz</li>
+			</ul>
+			<h3>ЦЕНЫ НА УСЛУГИ НАШИХ МАСТЕРОВ:</h3>
+			<table class="price-list-table">
+				<tr>
+					<td>Стрижка</td>
+					<td>1500 р.</td>
+				</tr>
+				<tr>
+					<td>Стрижка бороды</td>
+					<td>500 р.</td>
+				</tr>
+				<tr>
+					<td>Накрутка усов</td>
+					<td>350 р.</td>
+				</tr>
+			</table>
+			<h3>Несколько слов о нас</h3>
+			<p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
+			<p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+		</section>
+
+	</main>
+
+	<footer class="main-footer">
+		<p class="footer-contacts">
+			БАРБЕРШОП «БОРОДИНСКИЙ» <br>
+			АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+			КАК НАС НАЙТИ? <br>
+			ТЕЛЕФОН: +7 (495) 666-02-66
+		</p>
+		<div class="footer-social">
+			<b2>Давайте дружить!</span>
+			<ul>
+				<li><a href="#" class="social-button">Вконтакте</a></li>
+				<li><a href="#" class="social-button">Фейсбук</a></li>
+				<li><a href="#" class="social-button">Инстаграм</a></li>
+			</ul>
+		</div>
+		<p class="footer-copyright">
+			<b>Разработано</b>
+			<a href="#" class="button">Tovkailo Oleksandr</a>
+		</p>
+	</footer>
+
+	<section class="modal modal-login">
+		<h2>Личный кабинет</h2>
+		<p>Введите пожалуйста свой логин и пароль</p>
+			<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+				<p>
+					<label for="user" class="visually-hidden">Логин</label>
+					<input class="login-icon-user" id="user" name="login" placeholder="Логин" type="text">
+				</p>
+				<p>
+					<label for="login-icon-password" class="visually-hidden">Пароль</label>
+					<input class="login-icon-password" id="login-icon-password" name="password" placeholder="Пароль" type="password">
+				</p>
+				<p>
+					<label for="login-password-info">Запомните меня</label>
+					<input type="checkbox" name="remember" id="login-password-info" class="visually-hidden">
+					<a href="#" class="restore">Я забыл пароль!</a>
+				</p>
+				<button type="submit" class="button">Войти</button>
+			</form>
+		<button class="modal-close" type="button">Закрыть</button>
+	</section>
+
+</body>
+</html>
