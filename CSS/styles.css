@@ -3,14 +3,14 @@ body {
 	padding: 0;
 	
 	font-family: "PT Sans Narrow", Arial, sans-serif;
-	font-size: 14 px;
-	line-height: 24 px;
+	font-size: 14px;
+	line-height: 24px;
 	font-weight: 700;
 	color: #f7f4f1;
 	text-transform: uppercase;
 
 	background-color: #000000;
-	background-image: url("/img/bg.jpg");
+	background-image: url("../img/bg.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
 }
@@ -20,8 +20,8 @@ a {
 }
 
 .main-navigation {
-	font-size: 16 px;
-	line-height: 20 px;
+	font-size: 16px;
+	line-height: 20px;
 	color: #f7f4f1;
 
 	background-color: #000000;
@@ -53,22 +53,22 @@ a {
 }
 
 .feature-item h3 {
-	font-size: 30 px;
-	line-height: 42 px;
+	font-size: 30px;
+	line-height: 42px;
 }
 
 .index-columns {
 	color: #000000;
 
 	background-color: #f8f5f2;
-	background-image: url(/img/bg-white.png);
+	background-image: url(../img/bg-white.png);
 	background-position: 0 0;
 	background-repeat: repeat;
 }
 
 .index-columns h2 {
-	font-size: 30 px;
-	line-height: 42 px;
+	font-size: 30px;
+	line-height: 42px;
 }
 
 .news-list {
@@ -81,7 +81,7 @@ a {
 
 .gallery-content {
 	background-color: #cccccc;
-	border: 7 px solid #ffffff;
+	border: 7px solid #ffffff;
 }
 
 .button {
@@ -117,7 +117,7 @@ a {
 	color: #ffffff;
 
 	background-color: #232323;
-	background-image: url(/img/bg-footer.png);
+	background-image: url(../img/bg-footer.png);
 	background-position: 0 0;
 	background-repeat: repeat;
 }
@@ -159,14 +159,14 @@ a {
 	color: #000000;
 
 	background-color: #f8f5f2;
-	background-image: url(/img/bg-white.png);
+	background-image: url(../img/bg-white.png);
 	background-position: 0 0;
 	background-repeat: repeat;
 }
 
 .modal h2 {
-	font-size: 30 px;
-	line-height: 42 px;
+	font-size: 30px;
+	line-height: 42px;
 }
 
 .login-form input[type="text"],
@@ -202,7 +202,140 @@ a {
 	color: #000000;
 
 	background-color: #f8f5f2;
-	background-image: url(/img/bg-white.png);
+	background-image: url(../img/bg-white.png);
 	background-position: 0 0;
 	background-repeat: repeat;
+}
+
+.catalog-page main {
+	line-height: 18px;
+}
+
+.page-title {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.breadcrumbs {
+	list-style: none;
+}
+
+.breadcrumbs a {
+	color: #000000;
+}
+
+.breadcrumbs-current {
+	color: #aba9a7;
+}
+
+.filter legend {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.filters ul {
+	list-style: none;
+}
+
+.filter-option label {
+	line-height: 18px;
+}
+
+.filter-option label:hover {
+	color: #663d15;
+}
+
+.filter-option input:disabled+label {
+	color: #aba9a7;
+}
+
+.filter-button {
+	font-size: 13px;
+}
+
+.catalog-list {
+	line-height: 18px;
+
+	list-style: none;
+}
+
+.catalog-item {
+	background-color: #ffffff;
+
+	box-shadow: 0px 0px 15px 0px rgba(0, 1, 1, 0.2);
+}
+
+.catalog-category,
+.catalog-item-title {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.catalog-category {
+	text-transform: none;
+}
+
+.catalog-item-image {
+	background-color: #f8f8f8;
+}
+
+.pagination-list {
+	list-style: none;
+}
+
+.pagination-item {
+	display: inline-block;
+}
+
+.pagination-item-current {
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+.pagination-item-current:hover,
+.pagination-item-current:focus,
+.pagination-item-current:active {
+	background-color: #ffffff;
+}
+
+.product-photo-preview {
+	list-style: none;
+}
+
+.product-photo-preview li {
+	display: inline-block;
+}
+
+.product-article {
+	color: #aba9a7;
+}
+
+.catalog-item-price b {
+	background-color: #e5e5e5;
+}
+
+.product-info h3 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.price-list-title {
+	font-size: 48px;
+	line-height: 48px;
+}
+
+.price-list h3 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.price-list-table,
+td {
+	text-align: center;
+	vertical-align: middle;
+
+	border: 1px solid #000000;
+	border-collapse: collapse;
 }
